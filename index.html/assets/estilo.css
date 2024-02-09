@@ -1,0 +1,25 @@
+body{
+    background: #c58eac;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+li{
+    color: bisque;
+}
+
+#logo{
+    width: 600px;
+}
+
+nav ul li a{
+    color: red;
+}
+
+nav ul li a:hover{
+    background: rgb(62, 190, 98);
+    display: block;
+    width: 600px;
+}
+
+/* esto es pa comentar en css */

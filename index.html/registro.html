@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+</head>
+<body>
+    <form action="/registrado/registrao.html">
+    <li>
+        <input type="text" name="nombre" placeholder="nombre" required>
+    </li>
+    <li>
+        <input type="text" name="apellido" placeholder="apellido" required>
+    </li>
+    <li>
+        <input type="email" name="correo electronico" placeholder="correo electronico" required>
+    </li>
+    <li>
+        <input type="date" name="fecha de nacimiento" required>
+        <input type="range" >
+    </li>
+    <li>
+        <label for="ciudad">ciudad</label>
+        <select name="ciudad" id="ciudad">
+            <option value="" disabled select>seleccione una ciudad</option>
+            <option value="Bucaramanga">Bucaramanga</option>
+            <option value="Medellin">Medellin</option>
+            <option value="Bogota">Bogota</option>
+        </select>
+    </li>
+    <li>seleccione su genero:
+        <input type="radio" name="genero" id="masculino">
+        <label for="masculino">masculino</label>
+        <input type="radio" name="genero" id="femenino">
+        <label for="femenino">femenino</label>
+        <input type="radio" name="genero" id="otro">
+        <label for="otro">otro</label>
+    </li>
+    <li>
+        <label>escuchar musica <input type="checkbox"/></label>
+        <label>leer <input type="checkbox"/></label>
+        <label>salir a caminar <input type="checkbox"/></label>
+    </li>
+    <li>
+        <input type="tel" name="número telefonico" placeholder="número telefonico" required>
+        <button type="submit"> ingresar </button>
+    </li>
+</form>
+</body>
+</html>

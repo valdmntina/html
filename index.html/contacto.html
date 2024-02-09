@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactame</title>
+</head>
+<body>
+    <h2>Contacto</h2>
+    <form action="enviar mensaje" method="post"></form>
+    <div> <!--contenedor de contenido (imagenes, texto, formularios, enlaces, etc)-->
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" required>
+    </div>
+    <div>
+        <label for="email">Correo electronico</label>
+        <input type="email" name="email" id="email" required>
+    </div>
+    <div>
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="8"></textarea> <!--cols es el numero de columnas que va a tener y rows es el numero 
+        de filas que tendra-->
+    </div>
+</body>
+</html>
