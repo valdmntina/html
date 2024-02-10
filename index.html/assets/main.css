@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #c2c2c2;
+    font-family: 'Lobster', sans-serif;
+}
+
+header{
+    background: #1c1c1c;
+    
+}
+
+header > div{
+    display: flex;
+    justify-content: space-between; /*para que lado se envia el menu*/
+    align-items: center; /*con esto se alinea en la mitad de la barra, no queda pegado al techo*/
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100px;
+}
+
+ul{
+    display: flex;
+    gap: 4rem; /*para separar cada coso y no quede pegao*/
+    align-items: center;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+ul li a:hover{ /* cuando se le pasa el mouse cambia el color*/
+    color: blue;
+}

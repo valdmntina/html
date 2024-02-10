@@ -9,14 +9,18 @@ li{
 }
 
 #logo{
-    width: 600px;
+    width: 60px;
 }
 
 nav ul li a{
     color: red;
+    /*list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0; */
 }
 
-nav ul li a:hover{
+nav ul li a:hover{ /*cambia colorsitos cuando se le pasa el mouse */
     background: rgb(62, 190, 98);
     display: block;
     width: 600px;
